@@ -1,1 +1,1 @@
-export const nachTitel = (liste) => liste.sort((a, b) => a.titel.localeCompare(b.titel));
+export const nachTitel = (liste) => [...liste].sort((a, b) => a.titel.localeCompare(b.titel));
